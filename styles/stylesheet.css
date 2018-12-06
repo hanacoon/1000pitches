@@ -1,0 +1,35 @@
+body {
+  font-family: 'DIN Pro';
+  color: #2C3135;
+}
+
+
+@font-face {
+  font-family: "DIN Pro";
+  src: url("DINPro-Black.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "DIN Pro";
+  src: url("DINPro-Bold.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "DIN Pro";
+  src: url("DINPro-Light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "DIN Pro";
+  src: url("DINPro-Medium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "DIN Pro";
+  src: url("DINPro-Regular.otf");
+  font-weight: 400;
+}

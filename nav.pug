@@ -1,0 +1,21 @@
+html  
+    head
+        title This is my first Pug file
+        link(href='styles/nav.css', rel='stylesheet')
+        script(src='main.js')
+        
+        
+    body
+      .navbar
+        span.navbar-toggle#js-navbar-toggle ☰
+        a.logo(href="#")
+          img(src="1000pitcheslogo.svg")
+        ul.main-nav#js-menu
+          li
+            a.nav-links(href="#") HOME
+          li
+            a.nav-links(href="#") SUBMISSIONS
+          li
+            a.nav-links(href="#") FAQ
+          li.submit
+            a#submit.nav-links(href="#") SUBMIT A PITCH

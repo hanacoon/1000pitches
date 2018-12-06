@@ -1,11 +1,14 @@
 html  
     head
         title This is my first Pug file
+        link(href='styles/stylesheet.css', rel='stylesheet')
     body
-      include global/nav.pug
+      include nav.pug
       header
           p My soon to be menu
       section
           p This is a post about Pug template engine, enjoy it!
       footer
           cool footer with lots of copyrights
+
+      include footer.pug
