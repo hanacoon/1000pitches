@@ -1,0 +1,13 @@
+.pitch-categories {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.cat {
+  width: 25%;
+}
+
+.pitch-categories h1 {
+  text-align: center;
+}

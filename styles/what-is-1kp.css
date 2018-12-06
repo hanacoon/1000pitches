@@ -1,0 +1,17 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  flex-wrap: wrap;
+  max-width: 900px;
+}
+
+.what-is-1kp, .what-counts-as-pitch {
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .what-is-1kp, .what-counts-as-pitch {
+    width: 45%;
+  }
+}
