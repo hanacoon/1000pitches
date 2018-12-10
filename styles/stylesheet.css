@@ -3,16 +3,38 @@ body {
   color: #2C3135;
 }
 
-h1 {
+.divider {
+  height: 150px;
+}
+
+.section {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.yellow {
+  color: #FFC906 !important;
   font-weight: 600;
 }
 
 h1 {
+  font-weight: 600;
+}
+
+@media screen and (min-width: 700px) {
+  h1 {
+    font-size: 37px !important;
+  }
+}
+
+h1 {
   text-transform: none !important;
-  font-size: 37px !important;
+  font-size: 24px;
   margin-bottom: 20px !important;
   margin-top: 28px !important;
 }
+
+
 
 h2 {
   font-family: 'Helvetica Neue';
@@ -75,3 +97,4 @@ p {
   src: url("DINPro-Regular.otf");
   font-weight: 400;
 }
+

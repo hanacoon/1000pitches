@@ -1,0 +1,14 @@
+#countdown {
+  font-size: 100px;
+  font-family: 'DIN Pro';
+  color: #2C3135;
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+}
+
+.clock-section {
+  width: 25%;
+}

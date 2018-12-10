@@ -1,9 +1,14 @@
 .footer {
-  background-color: white;
+  background-color: #3B65B8;
   left: 0;
   bottom: 0;
   width: 100%;
   color: black;
   text-align: center;
-  HEIGHT: 100px;
+}
+
+.footer h1 {
+  text-transform: none !important;
+  font-size: 37px !important;
+  margin: 0 !important;
 }

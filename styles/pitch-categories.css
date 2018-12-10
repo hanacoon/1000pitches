@@ -4,10 +4,57 @@
   max-width: 1000px;
 }
 
-.cat {
-  width: 25%;
+.any-innovative-idea {
+  color: #2B7BBD;
+  text-decoration: underline;
 }
+
+.cat {
+  width: 50%;
+}
+
+@media screen and (min-width: 705px) {
+  .cat {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 704px) {
+  .pitch-categories p {
+    font-size: 12px !important;
+  }
+}
+
 
 .pitch-categories h1 {
   text-align: center;
+}
+
+.pitch-categories img {
+  max-height: 80px;
+  margin-top: 25px;
+}
+
+.pitch-categories p {
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+.mobility {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.or h2 {
+  padding: 0;
+  padding-top: 10px;
+  font-weight: 500;
+}
+
+h1.top-line {
+  margin-bottom: 0 !important;
+}
+
+h1.bottom-line {
+  margin-top: 0 !important;
 }

@@ -1,6 +1,22 @@
+.videos {
+  display: flex;
+  overflow: hidden;
+  padding: 0 !important;
+}
+
 .video {
-  height: 600px;
-  background-color:#2B7BBD;
-  margin-bottom: -30px;
-  color: white
+  max-height: 900px;
+}
+
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  height: 200px;
+}
+
+@media screen and (min-width: 900px) {
+  #myVideo {
+    height: 450px;
+  }
 }

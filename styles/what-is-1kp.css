@@ -3,7 +3,7 @@
   justify-content: space-between;
   text-align: left;
   flex-wrap: wrap;
-  max-width: 900px;
+  max-width: 950px;
 }
 
 .what-is-1kp, .what-counts-as-pitch {
@@ -14,4 +14,8 @@
   .what-is-1kp, .what-counts-as-pitch {
     width: 45%;
   }
+}
+
+p.rec {
+  padding-top: 10px;
 }

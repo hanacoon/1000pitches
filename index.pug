@@ -9,6 +9,9 @@ html
         link(href='styles/faq.css', rel='stylesheet')
         link(href='styles/sponsors.css', rel='stylesheet')
         link(href='styles/video.css', rel='stylesheet')
+        link(href='styles/countdown.css', rel='stylesheet')
+
+
 
     
     body
@@ -18,10 +21,19 @@ html
         h1 LAUNCHING SOON
 
       .section.clock
-        h1 COUNTDOWN HERE
-
+        .clock-section
+          div#days 0
+          p DAYS
+        .clock-section
+          div#hours 0
+          p HOURS
+        .clock-section
+          div#minutes 0
+          p MINUTES
+        .clock-section
+          div#seconds 0
+          p SECONDS
       .section.white-background
-        p white
 
       .section.about
         .what-is-1kp
@@ -29,7 +41,7 @@ html
           p
             span.yellow 1000 Pitches
             |  is a month-long, campus-wide pitch competition at the University of Michigan.
-          p
+          p <br>
             span.yellow 1000 Pitches
             |  grants any student the opportunity to voice and share their ideas, promoting entrepreneurship in its most intuitive and raw form: the elevator pitch.
 
@@ -38,56 +50,115 @@ html
           p
             span.yellow Any innovative idea
             |  will be considered a pitch.
-          p
+          p <br>
             span.yellow We reccomend that pitches:
-          p Are at least 30 seconds long.
+          p.rec Are at least 30 seconds long.
           p
-          p
+          p.rec
             | Describe an idea, improvement, 
             br
             | or solution to a problem.
-          p
+          p.rec
             | Describe how you would go about 
             br
             | putting your pitch into action
-          p
+          p.rec
             | Describe why your idea is 
             br
             | different/ better than similar ideas
 
+      .divider
 
       .section
-        h1 Pitch Categories Include:
+        h1.top-line Pitch 
+          span.any-innovative-idea any innovative idea.
+        h1.bottom-line Or, choose to pitch within a category:
       .section.pitch-categories
-        p.cat Machine Learning
-          img(src="image", alt="")
-        p.cat Mobility
-          img(src="image", alt="")
-        p.cat Internet of Things
-          img(src="image", alt="")
-        p.cat Healthcare
-          img(src="image", alt="")
-        p.cat M-Provements
-          img(src="image", alt="")
-        p.cat Fintech
-          img(src="image", alt="")
-        p.cat Sustainability
-          img(src="image", alt="")
-        p.cat Consumer Products
-          img(src="image", alt="")
+        p.cat Machine Learning<br>
+          img(src="1kp-icon-1.png", alt="")
+        p.cat Mobility<br>
+          img.mobility(src="1kp-icon-2.png", alt="")
+        p.cat Internet of Things<br>
+          img(src="1kp-icon-3.png", alt="")
+        p.cat Healthcare<br>
+          img(src="1kp-icon-4.png", alt="")
+        p.cat M-Provements<br>
+          img(src="1kp-icon-5.png", alt="")
+        p.cat Fintech<br>
+          img(src="1kp-icon-6.png", alt="")
+        p.cat Sustainability<br>
+          img(src="1kp-icon-7.png", alt="")
+        p.cat Consumer Products<br>
+          img(src="1kp-icon-8.png", alt="")
         
-
-      .section.how-to-submit
-        h1 HOW TO SUBMIT [SECTION]
+      .divider
 
       .section.faq
-        h1 FAQ [SECTION]
+        .container
+          h1 Frequently Asked Questions
+          .accordion
+            .accordion-item
+              a What is 1000 Pitches?
+              .content
+                p 1000 Pitches believes that everyone has an idea worth expressing. We challenge U-M students to take the leap from noticing a problem to ideating solutions. Our competition collects pitches from mid-January through the end of February, which is when we storm campus with pitch booths and organize social media campaigns to engage with the best ideas at U-M. We collect, review, and provide feedback on thousands of pitches every year. We offer a grand prize of $1000 for the best pitch and a handful of other cash and non-cash prizes to other winning pitches.
+            .accordion-item
+              a How does 1000 Pitches work?
+              .content
+                p 1000 Pitches collects pitches for from mid-January through the end of February at our pitch booths and through social media. There are multiple ways to submit a pitch:
+                ul
+                  li Directly on our website.
+                  li By direct messaging any of our social media channels (Instagram: 1000pitches_umich, Facebook: 1000 Pitches)
+                  li In person at our pitch booths (see timeline)
+                p We collect, review, and provide feedback on thousands of pitches every year. We offer a grand prize of $1000 for the best pitch and a handful of other cash and non-cash prizes to other winning pitches.
+            .accordion-item
+              a Why should I pitch?
+              .content
+                p Immediate incentives for submitting a pitch may include free food, t-shirts, and more.
+                p Additionally, winners of select categories are entitled to prizes, including the $1000 cash prize for the best pitch, overall.
+                p We are also happy to help you promote your idea or give tips on how you can improve your pitch and/or the idea itself. 
+            .accordion-item
+              a How does 1KP interact with students?
+              .content
+                p We welcome pitches from students of all ages, majors, and schools. All of our efforts are directed toward making these interactions as meaningful and effortless as possible. Students can submit pitches in any of the following ways:
+                ul
+                  li Directly on our website.
+                  li By direct messaging any of our social media channels (Instagram: 1000pitches_umich, Facebook: 1000 Pitches)
+                  li In person at our pitch booths (see timeline)
+            .accordion-item
+              a What is the timeline? How long is the competition?
+              .content
+                p 1000 Pitches is held in the winter semester from mid-January to mid-February.
+                p Kickoff Date & Start of Pitch Collection - January 14th - Central Campus Diag
+                p End of Pitch Collection - Feb 22nd
+                p Award Ceremony - March 22nd
+            .accordion-item
+              a What is a pitch booth? 
+              .content
+                p Pitch booths are tables situated in hot-spots on campus where anyone can come pitch ideas. We will be holding pitch booths in dorms, Mason Hall, the Diag, and other locations listed here.
+
+      .divider
         
+      .section
+        h1 Our Sponsors
       .section.sponsors
-        h1 SPONSORS [SECTION]
+        .sponsor
+          img(src="officeofpres.png", alt="")
+        .sponsor
+          img(src="center-for-entrepreneurship-feature.jpg", alt="")
+        .sponsor
+          img(src="innovateblue.png", alt="")
 
-      .section.video
-        h1 VIDEO HERE
 
+      .section.videos
+
+        .video 
+          video(autoplay muted loop id="myVideo")
+            source(src="1kp-vid.mp4" type="video/mp4")
+        .video
+          video(autoplay muted loop id="myVideo")
+            source(src="1kp-vid.mp4" type="video/mp4")
+        .video
+          video(autoplay muted loop id="myVideo")
+            source(src="1kp-vid.mp4" type="video/mp4")
 
       include footer.pug
