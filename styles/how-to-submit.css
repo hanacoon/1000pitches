@@ -1,5 +1,27 @@
 .how-to-submit {
-  margin: 100px;
-  height: 400px;
-  background-color: lightblue;
+  padding-top: 30px;
+  padding-bottom: 65px;
+  background-color: #F5B817;
+  color: white;
+  box-shadow: 0 0 45px rgba(0,0,0,.10);
+}
+
+.how-to-submit .submit {
+  background-color: white;
+  text-decoration: none;
+  color: #F5B817;
+  border-radius: 4px;
+  padding: 15px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.how-to-submit .submit:hover {
+  opacity: .9;
+  transition: all .2s ease-in-out;
+}
+
+.how-to-submit p {
+  max-width: 520px;
+  margin-bottom: 50px;
 }
