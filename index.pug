@@ -22,21 +22,21 @@ html
 
       .section.clock
         .clock-section
-          div#days 0
+          div#days.number 0
           p DAYS
         .clock-section
-          div#hours 0
+          div#hours.number 0
           p HOURS
         .clock-section
-          div#minutes 0
+          div#minutes.number 0
           p MINUTES
         .clock-section
-          div#seconds 0
+          div#seconds.number 0
           p SECONDS
       .section.white-background
 
       .section.about
-        .what-is-1kp
+        .what-is-1kp#about
           h1 What is 1000 Pitches?
           p
             span.yellow 1000 Pitches
@@ -94,7 +94,7 @@ html
       .divider
 
       .section.faq
-        .container
+        .container#faq
           h1 Frequently Asked Questions
           .accordion
             .accordion-item
@@ -128,9 +128,15 @@ html
               a What is the timeline? How long is the competition?
               .content
                 p 1000 Pitches is held in the winter semester from mid-January to mid-February.
-                p Kickoff Date & Start of Pitch Collection - January 14th - Central Campus Diag
-                p End of Pitch Collection - Feb 22nd
-                p Award Ceremony - March 22nd
+                p 
+                  span.yellow Kickoff Date & Start of Pitch Collection 
+                  |  - January 14th; Central Campus Diag
+                p 
+                  span.yellow End of Pitch Collection 
+                  | - Feb 22nd
+                p 
+                  span.yellow Award Ceremony 
+                  | - March 22nd
             .accordion-item
               a What is a pitch booth? 
               .content
@@ -138,7 +144,7 @@ html
 
       .divider
         
-      .section
+      .section#sponsors
         h1 Our Sponsors
       .section.sponsors
         .sponsor

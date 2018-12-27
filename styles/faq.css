@@ -8,6 +8,19 @@
   box-sizing: border-box;
 }
 
+.faq p {
+  padding-bottom: 10px;
+}
+
+.faq ul {
+  font-weight: 300;
+  padding-left: 30px;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+
 .faq body {
   margin: 0;
   padding: 0;

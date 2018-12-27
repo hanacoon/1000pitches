@@ -26,9 +26,9 @@ function CountDownTimer(dt, days_id, hours_id, minutes_id, seconds_id)
         var minutes = Math.floor((distance % _hour) / _minute);
         var seconds = Math.floor((distance % _minute) / _second);
 
-        document.getElementById(days_id).innerHTML = days + ':';
-        document.getElementById(hours_id).innerHTML = hours + ':';
-        document.getElementById(minutes_id).innerHTML = minutes + ':';
+        document.getElementById(days_id).innerHTML = days + '';
+        document.getElementById(hours_id).innerHTML = hours + '';
+        document.getElementById(minutes_id).innerHTML = minutes + '';
         document.getElementById(seconds_id).innerHTML = seconds + '';
     }
 
