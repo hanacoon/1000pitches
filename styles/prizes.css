@@ -1,0 +1,44 @@
+.prizes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.prize {
+  width: 100%;
+}
+
+.money {
+  font-size: 55px !important;
+  font-weight: 600;
+  color: #F5B817;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.pad {
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 900px) {
+  .prize {
+    width: 33%;
+  }
+  
+  .money {
+    font-size: 80px !important;
+    font-weight: 600;
+    color: #F5B817;
+  }
+  
+  .description {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .pad {
+    padding-bottom: 0px;
+  }
+}
