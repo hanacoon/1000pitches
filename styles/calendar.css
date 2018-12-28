@@ -1,0 +1,16 @@
+
+
+@media (max-width: 760px) {
+  #big-cal {
+      display: none;
+  }
+}
+@media (min-width: 760px) {
+  #small-cal {
+      display: none;
+  }
+}
+
+.view-container-border {
+  background-color: #F5B817;
+}
