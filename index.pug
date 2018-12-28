@@ -23,7 +23,7 @@ html
     body
       include nav.pug
       
-      .section.yellow-background
+      .section.yellow-background#home
         h1 LAUNCHING SOON
 
       .section.clock
@@ -39,10 +39,10 @@ html
         .clock-section
           div#seconds.number 0
           p SECONDS
-      .section.white-background
+      .section.white-background#about
 
       .section.about
-        .what-is-1kp#about
+        .what-is-1kp
           h1 What is 1000 Pitches?
           p
             span.yellow 1000 Pitches
@@ -57,7 +57,7 @@ html
             span.yellow Any innovative idea
             |  will be considered a pitch.
           p <br>
-            span.yellow We reccomend that pitches:
+            span.yellow We recommend that pitches:
           p.rec Are at least 30 seconds long.
           p
           p.rec
@@ -67,11 +67,11 @@ html
           p.rec
             | Describe how you would go about 
             br
-            | putting your pitch into action
+            | putting your pitch into action.
           p.rec
             | Describe why your idea is 
             br
-            | different/ better than similar ideas
+            | different/ better than similar ideas.
 
       .divider
 
@@ -87,9 +87,9 @@ html
           p.description Third Place
           
 
-      .divider
+      .divider#submissions
 
-      .section.how-to-submit#submissions
+      .section.how-to-submit
         h1 How to Submit
         p Pitches can be submitted by accessing our submission platform from a Smartphone or Laptop. Simply follow the prompts on the platform, submit a short pitch video, and you’re all set!
         a.submit(href="https://airtable.com/shrGruUR7RT3qn2zz" target="_blank") SUBMIT A PITCH
@@ -117,10 +117,10 @@ html
         p.cat Consumer Products<br>
           img(src="1kp-icon-8.png", alt="")
         
-      .divider
+      .divider#faq
 
       .section.faq
-        .container#faq
+        .container
           h1 Frequently Asked Questions
           .accordion
             .accordion-item
@@ -168,9 +168,9 @@ html
               .content
                 p Pitch booths are tables situated in hot-spots on campus where anyone can come pitch ideas. We will be holding pitch booths in dorms, Mason Hall, the Diag, and other locations listed here.
 
-      .divider
+      .divider#sponsors
         
-      .section#sponsors
+      .section
         h1 Our Sponsors
       .section.sponsors
         .sponsor

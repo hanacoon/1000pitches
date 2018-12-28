@@ -11,7 +11,7 @@ p {
   background-color: rgba(245,184,23,0.69);
   z-index: -10;
   position: relative;
-  height: 329px;
+  height: 429px;
   top: -100px;
 }
 
@@ -20,7 +20,7 @@ p {
   color: #FFFFFF;
   letter-spacing: 0;
   text-align: center;
-  padding-top: 144px;
+  padding-top: 244px;
 }
 
 .clock {
@@ -37,7 +37,7 @@ p {
     background-color: rgba(245,184,23,0.69);
     z-index: -10;
     position: relative;
-    height: 400px;
+    height: 500px;
     top: -100px;
   }
   
@@ -46,7 +46,7 @@ p {
     color: #FFFFFF;
     letter-spacing: 0;
     text-align: center;
-    padding-top: 197px;
+    padding-top: 297px;
   }
   
   .clock {
