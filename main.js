@@ -1,5 +1,5 @@
 
-CountDownTimer('2/24/2019 11:59 PM', 'days', 'hours', 'minutes', 'seconds');
+CountDownTimer('11/08/2019 11:59 PM', 'days', 'hours', 'minutes', 'seconds');
 
 function CountDownTimer(dt, days_id, hours_id, minutes_id, seconds_id)
 {
